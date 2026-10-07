@@ -10,7 +10,7 @@ Three stages:
 
 1. **Analog: 555 astable clock.** An LM555CN with R1 = 10 kΩ, R2 = 18 kΩ, and timing capacitors generates a square wave. A user switch (S1) disturbs the timing, so when you stop the clock depends on the person, not the circuit. My notebook measurement of this stage: period ≈ 14.98 ms, frequency ≈ 66.7 Hz.
 2. **Sequential: 3-bit counter.** Three D flip-flops (74LS74) count continuously. Set/reset logic changes the count range from 000–111 to 001–110, so it cycles through 1 to 6.
-3. **Combinational: decode.** AND, OR, and NOT gates decode the 3-bit count into an LED die face. The LEDs are not wired straight to the clock; they are driven through the logic. <!-- TODO: confirm LED count. The description says 6 LEDs; the notebook truth table has 7 LED columns (L1–L7). -->
+3. **Combinational: decode.** AND, OR, and NOT gates decode the 3-bit count into a **7-LED die face** (L1–L7). The LEDs are not wired straight to the clock; they are driven through the logic.
 
 <p>
   <img src="images/555-clock.png" width="300" alt="555 astable clock schematic">

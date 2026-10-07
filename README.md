@@ -6,7 +6,7 @@ Combinational and sequential logic projects from **PLTW Digital Electronics (202
 
 | # | Project | Type | Key parts | Built? |
 |---|---|---|---|---|
-| 1 | [Random number generator](01-random-number-generator/) | 555 clock + counter + decode logic | LM555, 74LS74, AND/OR/NOT gates, LEDs | Simulated, then soldered |
+| 1 | [Random number generator](01-random-number-generator/) | 555 clock + counter + decode logic | LM555, 74LS74, AND/OR/NOT gates, 7 LEDs | Simulated, then soldered |
 | 2 | [Majority vote](02-majority-vote/) | Combinational, 4 inputs, 2-input gates only | AOI vs NAND-only vs NOR-only | Simulated + breadboarded |
 | 3 | [Seven-segment decoder](03-seven-segment-decoder/) | Combinational, 3 inputs → 7 segments | Common-cathode display | Simulated + TinkerCAD |
 | 4 | [Now Serving to 30](04-now-serving-to-30/) | Counter with terminal count | 74LS93, D flip-flops | Simulated |
@@ -26,7 +26,7 @@ Combinational and sequential logic projects from **PLTW Digital Electronics (202
 
 A short team project: a proximity alert that can be added to older cars without built-in sensors. A **Raspberry Pi Pico 2 W** reads an **HC-SR04** ultrasonic sensor. When an object comes closer than a set threshold, the Pico sounds a piezo buzzer, turns a servo 90°, and sends an alert to a phone app over **Bluetooth Low Energy**. Closing the app ends the connection, silences the buzzer, and returns the servo to its starting position.
 
-**Team:** Pietro Moreira (code and phone app) · Juan Salcedo (board assembly) · Haran Sudalayandi <!-- TODO: Haran's as-built role --> · me (soldering and the protective enclosure)
+**Team:** Pietro Moreira (code and phone app) · Juan Salcedo (board assembly) · me (soldering and the protective enclosure)
 
 <img src="capstone-distance-sensor/images/enclosure.jpg" width="300" alt="Distance sensor in its protective enclosure">
 
