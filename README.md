@@ -26,7 +26,7 @@ Combinational and sequential logic projects from **PLTW Digital Electronics (202
 
 A short team project: a proximity alert that can be added to older cars without built-in sensors. A **Raspberry Pi Pico 2 W** reads an **HC-SR04** ultrasonic sensor. When an object comes closer than a set threshold, the Pico sounds a piezo buzzer, turns a servo 90°, and sends an alert to a phone app over **Bluetooth Low Energy**. Closing the app ends the connection, silences the buzzer, and returns the servo to its starting position.
 
-**Team:** Pietro Moreira (code and phone app) · Juan Salcedo (board assembly) · me (soldering and the protective enclosure)
+**Team:** Pietro Moreira (code and phone app) and me (soldering and the protective enclosure)
 
 <img src="capstone-distance-sensor/images/enclosure.jpg" width="300" alt="Distance sensor in its protective enclosure">
 
